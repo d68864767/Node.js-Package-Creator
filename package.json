@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-package-creator",
+  "version": "1.0.0",
+  "description": "A Node.js project to automatically create package.json, README.md, LICENSE, and index.js files for a new npm package.",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/nodejs-package-creator.git"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "creator",
+    "nodejs"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/nodejs-package-creator/issues"
+  },
+  "homepage": "https://github.com/yourusername/nodejs-package-creator#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^8.2.0",
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
+}
